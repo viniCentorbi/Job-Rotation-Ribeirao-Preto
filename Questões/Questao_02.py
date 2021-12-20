@@ -17,15 +17,10 @@ def fibonacci(numero):
 		penultimo = ultimo
 		ultimo = proximo
 
-		print(penultimo)
-		print(ultimo)
-		
-		print('-----')
-
 	return pertence
 
 
-if fibonacci(378):
+if fibonacci(377):
 	print('Pertence a sequência!')
 else:
 	print('Não pertence a sequência!')
